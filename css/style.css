@@ -6,7 +6,7 @@ h1 {
     margin-top: 0;
 }
 h2 {
-    color: red;
+    color: rgb(73, 73, 73);
     font-size: 16px;
 }
 
@@ -28,7 +28,7 @@ section {
 
 /* Class Selector */
 .iphonemodels {
-    color:rgb(0, 47, 255);
+    color: black;
     font-size: 30px;
 }
 
@@ -49,4 +49,10 @@ section {
     body {
         background-color: rgb(79, 255, 88);
     }
+
+    section {
+        text-align: left;
+        display: flex;
+    }
 }
+
