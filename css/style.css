@@ -40,6 +40,10 @@ section {
     width: 150px;
 }
 
+.gbcolor {
+    color: rgb(0, 11, 158);
+}
+
 /* My Media Queries */
 @media screen and (min-width: 768px) {
     section {
