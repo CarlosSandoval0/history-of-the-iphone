@@ -41,16 +41,40 @@ section {
 }
 
 .gbcolor {
-    color: rgb(0, 11, 158);
+    color:rgb(108, 0, 112);
+}
+
+.gbcolormobile {
+    margin-top: 20px;
+    font-weight: bold;
+    color:rgb(108, 0, 112);
 }
 
 /* My Media Queries */
+@media screen and (max-width: 767px) {
+    .gbcolor {
+        display:none;
+    }
+
+    .iphonename {
+        display: none;
+    }
+}
+
 @media screen and (min-width: 768px) {
     section {
         text-align: left;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
+    }
+
+    .gbcolormobile {
+        display: none;
+    }
+
+    .iphonenamemobile {
+        display: none;
     }
 }
 
