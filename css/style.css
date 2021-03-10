@@ -42,6 +42,7 @@ section {
 
 .gbcolor {
     color:rgb(108, 0, 112);
+    text-decoration: underline;
 }
 
 .gbcolormobile {
@@ -51,22 +52,21 @@ section {
 }
 
 /* My Media Queries */
-@media screen and (max-width: 767px) {
-    .gbcolor {
-        display:none;
-    }
-
-    .iphonename {
-        display: none;
-    }
-}
-
 @media screen and (min-width: 768px) {
     section {
         text-align: left;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
+    }
+}
+
+@media screen and (min-width: 1080px) {
+    section {
+        text-align: left;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
     }
 
     .gbcolormobile {
@@ -78,12 +78,13 @@ section {
     }
 }
 
-@media screen and (min-width: 1280px) {
-    section {
-        text-align: left;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
+
+@media screen and (max-width: 1079px) {
+    .gbcolor {
+        display:none;
+    }
+
+    .iphonename {
+        display: none;
     }
 }
-

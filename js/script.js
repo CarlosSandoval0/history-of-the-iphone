@@ -1,18 +1,209 @@
+function iphone() {
+    document.getElementById('iphonePrice').innerHTML = "iphone $599";
+    document.getElementById("iphonePrice").style.color = "black";
+}
+function iphoneOut() {
+    document.getElementById('iphonePrice').innerHTML = "iphone $499";
+    document.getElementById("iphonePrice").style.color = "rgb(73,73,73)";
+}
+
+
+function iphone3g() {
+    document.getElementById('iphone3gPrice').innerHTML = "iphone 3g $699";
+    document.getElementById("iphone3gPrice").style.color = "black";
+}
+function iphone3gOut() {
+    document.getElementById('iphone3gPrice').innerHTML = "iphone 3g $599";
+    document.getElementById("iphone3gPrice").style.color = "rgb(73,73,73)";
+}
+
+
+function iphone3gs() {
+    document.getElementById('iphone3gsPrice').innerHTML = "iphone 3gs $699";
+    document.getElementById("iphone3gsPrice").style.color = "black";
+}
+function iphone3gsOut() {
+    document.getElementById('iphone3gsPrice').innerHTML = "iphone 3gs $599";
+    document.getElementById("iphone3gsPrice").style.color = "rgb(73,73,73)";
+}
+
+
+function iphone4() {
+    document.getElementById('iphone4Price').innerHTML = "iphone 4 $699";
+    document.getElementById("iphone4Price").style.color = "black";
+}
+function iphone4Out() {
+    document.getElementById('iphone4Price').innerHTML = "iphone 4 $599";
+    document.getElementById("iphone4Price").style.color = "rgb(73,73,73)";
+}
+
+
+function iphone4s32() {
+    document.getElementById('iphone4sPrice').innerHTML = "iphone 4s $749";
+    document.getElementById("iphone4sPrice").style.color = "black";
+}
+function iphone4s32Out() {
+    document.getElementById('iphone4sPrice').innerHTML = "iphone 4s $649";
+    document.getElementById("iphone4sPrice").style.color = "rgb(73,73,73)";
+}
+function iphone4s64() {
+    document.getElementById('iphone4sPrice').innerHTML = "iphone 4s $849";
+    document.getElementById("iphone4sPrice").style.color = "black";
+}
+function iphone4s64Out() {
+    document.getElementById('iphone4sPrice').innerHTML = "iphone 4s $649";
+    document.getElementById("iphone4sPrice").style.color = "rgb(73,73,73)";
+}
+
+
+function iphone532() {
+    document.getElementById('iphone5Price').innerHTML = "iphone 5 $749";
+    document.getElementById("iphone5Price").style.color = "black";
+}
+function iphone532Out() {
+    document.getElementById('iphone5Price').innerHTML = "iphone 5 $649";
+    document.getElementById("iphone5Price").style.color = "rgb(73,73,73)";
+}
+function iphone564() {
+    document.getElementById('iphone5Price').innerHTML = "iphone 5 $849";
+    document.getElementById("iphone5Price").style.color = "black";
+}
+function iphone564Out() {
+    document.getElementById('iphone5Price').innerHTML = "iphone 5 $649";
+    document.getElementById("iphone5Price").style.color = "rgb(73,73,73)";
+}
+
+
+function iphone5c() {
+    document.getElementById('iphone5cPrice').innerHTML = "iphone 5c $649";
+    document.getElementById("iphone5cPrice").style.color = "black";
+}
+function iphone5cOut() {
+    document.getElementById('iphone5cPrice').innerHTML = "iphone 5c $549";
+    document.getElementById("iphone5cPrice").style.color = "rgb(73,73,73)";
+}
+
+
+function iphone5s32() {
+    document.getElementById('iphone5sPrice').innerHTML = "iphone 5s $749";
+    document.getElementById("iphone5sPrice").style.color = "black";
+}
+function iphone5s32Out() {
+    document.getElementById('iphone5sPrice').innerHTML = "iphone 5s $649";
+    document.getElementById("iphone5sPrice").style.color = "rgb(73,73,73)";
+}
+function iphone5s64() {
+    document.getElementById('iphone5sPrice').innerHTML = "iphone 5s $849";
+    document.getElementById("iphone5sPrice").style.color = "black";
+}
+function iphone5s64Out() {
+    document.getElementById('iphone5sPrice').innerHTML = "iphone 5s $649";
+    document.getElementById("iphone5sPrice").style.color = "rgb(73,73,73)";
+}
+
+
+function iphone664() {
+    document.getElementById('iphone6Price').innerHTML = "iphone 6 $749";
+    document.getElementById('iphone6PlusPrice').innerHTML = "iphone 6 plus $849";
+    document.getElementById("iphone6Price").style.color = "black";
+    document.getElementById("iphone6PlusPrice").style.color = "black";
+}
+function iphone664Out() {
+    document.getElementById('iphone6Price').innerHTML = "iphone 6 $649";
+    document.getElementById('iphone6PlusPrice').innerHTML = "iphone 6 plus $749";
+    document.getElementById("iphone6Price").style.color = "rgb(73,73,73)";
+    document.getElementById("iphone6PlusPrice").style.color = "rgb(73,73,73)";
+}
+function iphone6128() {
+    document.getElementById('iphone6Price').innerHTML = "iphone 6 $849";
+    document.getElementById('iphone6PlusPrice').innerHTML = "iphone 6 plus $949";
+    document.getElementById("iphone6Price").style.color = "black";
+    document.getElementById("iphone6PlusPrice").style.color = "black";
+}
+function iphone6128Out() {
+    document.getElementById('iphone6Price').innerHTML = "iphone 6 $649";
+    document.getElementById('iphone6PlusPrice').innerHTML = "iphone 6 plus $749";
+    document.getElementById("iphone6Price").style.color = "rgb(73,73,73)";
+    document.getElementById("iphone6PlusPrice").style.color = "rgb(73,73,73)";
+}
+
+
+function iphone6s64() {
+    document.getElementById('iphone6sPrice').innerHTML = "iphone 6s $749";
+    document.getElementById('iphone6sPlusPrice').innerHTML = "iphone 6s plus $849";
+    document.getElementById("iphone6sPrice").style.color = "black";
+    document.getElementById("iphone6sPlusPrice").style.color = "black";
+}
+function iphone6s64Out() {
+    document.getElementById('iphone6sPrice').innerHTML = "iphone 6s $649";
+    document.getElementById('iphone6sPlusPrice').innerHTML = "iphone 6s plus $749";
+    document.getElementById("iphone6sPrice").style.color = "rgb(73,73,73)";
+    document.getElementById("iphone6sPlusPrice").style.color = "rgb(73,73,73)";
+}
+function iphone6s128() {
+    document.getElementById('iphone6sPrice').innerHTML = "iphone 6s $849";
+    document.getElementById('iphone6sPlusPrice').innerHTML = "iphone 6s plus $949";
+    document.getElementById("iphone6sPrice").style.color = "black";
+    document.getElementById("iphone6sPlusPrice").style.color = "black";
+}
+function iphone6s128Out() {
+    document.getElementById('iphone6sPrice').innerHTML = "iphone 6s $649";
+    document.getElementById('iphone6sPlusPrice').innerHTML = "iphone 6s plus $749";
+    document.getElementById("iphone6sPrice").style.color = "rgb(73,73,73)";
+    document.getElementById("iphone6sPlusPrice").style.color = "rgb(73,73,73)";
+}
+
+
+function iphoneSe() {
+    document.getElementById('iphoneSePrice').innerHTML = "iphone Se $499";
+    document.getElementById("iphoneSePrice").style.color = "black";
+}
+function iphoneSeOut() {
+    document.getElementById('iphoneSePrice').innerHTML = "iphone Se $399";
+    document.getElementById("iphoneSePrice").style.color = "rgb(73,73,73)";
+}
+
+
+function iphone7128() {
+    document.getElementById('iphone7Price').innerHTML = "iphone 7 $749";
+    document.getElementById('iphone7PlusPrice').innerHTML = "iphone 7 plus $849";
+    document.getElementById("iphone7Price").style.color = "black";
+    document.getElementById("iphone7PlusPrice").style.color = "black";
+}
+function iphone7128Out() {
+    document.getElementById('iphone7Price').innerHTML = "iphone 7 $649";
+    document.getElementById('iphone7PlusPrice').innerHTML = "iphone 7 plus $749";
+    document.getElementById("iphone7Price").style.color = "rgb(73,73,73)";
+    document.getElementById("iphone7PlusPrice").style.color = "rgb(73,73,73)";
+}
+function iphone7256() {
+    document.getElementById('iphone7Price').innerHTML = "iphone 7 $849";
+    document.getElementById('iphone7PlusPrice').innerHTML = "iphone 7 plus $949";
+    document.getElementById("iphone7Price").style.color = "black";
+    document.getElementById("iphone7PlusPrice").style.color = "black";
+}
+function iphone7256Out() {
+    document.getElementById('iphone7Price').innerHTML = "iphone 7 $649";
+    document.getElementById('iphone7PlusPrice').innerHTML = "iphone 7 plus $749";
+    document.getElementById("iphone7Price").style.color = "rgb(73,73,73)";
+    document.getElementById("iphone7PlusPrice").style.color = "rgb(73,73,73)";
+}
+
+
+
+
 function iphone12Pro256() {
     document.getElementById('iphone12ProPrice').innerHTML = "iphone 12 pro $1099";
     document.getElementById('iphone12ProMaxPrice').innerHTML = "iphone 12 pro max $1199";
 }
-
 function iphone12Pro256Out() {
     document.getElementById('iphone12ProPrice').innerHTML = "iphone 12 pro $999";
     document.getElementById('iphone12ProMaxPrice').innerHTML = "iphone 12 pro max $1099";
 }
-
 function iphone12Pro512() {
     document.getElementById('iphone12ProPrice').innerHTML = "iphone 12 pro $1299"
     document.getElementById('iphone12ProMaxPrice').innerHTML = "iphone 12 pro max $1399"
 }
-
 function iphone12Pro512Out() {
     document.getElementById('iphone12ProPrice').innerHTML = "iphone 12 pro $999";
     document.getElementById('iphone12ProMaxPrice').innerHTML = "iphone 12 pro max $1099";
