@@ -302,40 +302,6 @@ function iphone11Pro512Out() {
 }
 
 
-
-
-
-
-
-
-
-
-function iphone11Pro256() {
-    document.getElementById('iphone11ProPrice').innerHTML = "iphone 11 Pro $1149";
-    document.getElementById('iphone11ProMaxPrice').innerHTML = "iphone 11 Pro Max $1249";
-    document.getElementById("iphone11ProPrice").style.color = "black";
-    document.getElementById("iphone11ProMaxPrice").style.color = "black";
-}
-function iphone11Pro256Out() {
-    document.getElementById('iphone11ProPrice').innerHTML = "iphone 11 Pro $999";
-    document.getElementById('iphone11ProMaxPrice').innerHTML = "iphone 11 Pro Max $1099";
-    document.getElementById("iphone11ProPrice").style.color = "rgb(73,73,73)";
-    document.getElementById("iphone11ProMaxPrice").style.color = "rgb(73,73,73)";
-}
-function iphone11Pro512() {
-    document.getElementById('iphone11ProPrice').innerHTML = " iphone 11 Pro $1349";
-    document.getElementById('iphone11ProMaxPrice').innerHTML = "iphone 11 Pro Max $1449";
-    document.getElementById("iphone11ProPrice").style.color = "black";
-    document.getElementById("iphone11ProMaxPrice").style.color = "black";
-}
-function iphone11Pro512Out() {
-    document.getElementById('iphone11ProPrice').innerHTML = "iphone 11 Pro $999";
-    document.getElementById('iphone11ProMaxPrice').innerHTML = "iphone 11 Pro Max $1099";
-    document.getElementById("iphone11ProPrice").style.color = "rgb(73,73,73)";
-    document.getElementById("iphone11ProMaxPrice").style.color = "rgb(73,73,73)";
-}
-
-
 function iphoneSe1282020() {
     document.getElementById('iphoneSe2020Price').innerHTML = "iphone Se $449";
     document.getElementById("iphoneSe2020Price").style.color = "black";
