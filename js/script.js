@@ -1,5 +1,8 @@
 function iphone() {
-    document.getElementById('iphonePrice').innerHTML = "iphone $599";
+    let iphonePrice;
+    iphonePrice = "iphone $599";
+
+    document.getElementById('iphonePrice').innerHTML = iphonePrice;
     document.getElementById("iphonePrice").style.color = "black";
 }
 function iphoneOut() {
@@ -16,7 +19,10 @@ function fourOut() {
 
 
 function iphone3g() {
-    document.getElementById('iphone3gPrice').innerHTML = "iphone 3g $699";
+    let iphonePrice;
+    iphonePrice = "iphone 3g $699";
+
+    document.getElementById('iphone3gPrice').innerHTML = iphonePrice;
     document.getElementById("iphone3gPrice").style.color = "black";
 }
 function iphone3gOut() {
@@ -33,7 +39,10 @@ function eightOut() {
 
 
 function iphone3gs() {
-    document.getElementById('iphone3gsPrice').innerHTML = "iphone 3gs $699";
+    let iphonePrice;
+    iphonePrice = "iphone 3gs $699";
+
+    document.getElementById('iphone3gsPrice').innerHTML = iphonePrice;
     document.getElementById("iphone3gsPrice").style.color = "black";
 }
 function iphone3gsOut() {
@@ -50,7 +59,10 @@ function sixteenOut() {
 
 
 function iphone4() {
-    document.getElementById('iphone4Price').innerHTML = "iphone 4 $699";
+    let iphonePrice;
+    iphonePrice = "iphone 4 $699"
+
+    document.getElementById('iphone4Price').innerHTML = iphonePrice;
     document.getElementById("iphone4Price").style.color = "black";
 }
 function iphone4Out() {
@@ -67,7 +79,10 @@ function sixteentwoOut() {
 
 
 function iphone4s32() {
-    document.getElementById('iphone4sPrice').innerHTML = "iphone 4s $749";
+    let iphonePrice;
+    iphonePrice = "iphone 4s $749"
+
+    document.getElementById('iphone4sPrice').innerHTML = iphonePrice;
     document.getElementById("iphone4sPrice").style.color = "black";
 }
 function iphone4s32Out() {
@@ -533,3 +548,15 @@ function onehundredtwentyeightOut() {
     document.getElementById("iphone12ProPrice").style.color = "rgb(73,73,73)";
     document.getElementById("iphone12ProMaxPrice").style.color = "rgb(73,73,73)";
 }
+
+
+
+const toTop = document.querySelector(".to-top");
+
+window.addEventListener("scroll", () => {
+  if (window.pageYOffset > 100) {
+    toTop.classList.add("active");
+  } else {
+    toTop.classList.remove("active");
+  }
+})
