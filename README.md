@@ -1,5 +1,15 @@
-# history-of-the-iphone
+I've created a website that displays Apple iphones and demonstrates the changes throughout generations. It shows the release date, storage sizes, and the pricing options available at time of launch. Project is located in home.html
 
-I've created a website that displays Apple iphones and demonstrates the changes throughout generations. It shows the release date, storage sizes, and the pricing options available at time of launch. In CSS i've created flex containers and set the display property to flex. Followed by a flex wrap declared to wrap. I added a justify content property set to space around for tablets and space evenly on larger screens.
-In Javascript the on mouse over event triggers the functions in charge of changing the price and text color once a user moves their mouse over a gb size. If the mouse is away from a gb size the pricing will be set to starting price. 
-A mixture of variables and pseudo elements work together to make CSS animations, letting the user know when they are hovering over a gb size.
+JavaScript Features
+I've created more than 3 JavaScript let variables inside Script.js lines 2, 22, 42, 62, and 82. The values are set to different iphone prices that will display once a user hovers over a gigabyte size.
+I am showing, hiding, and changing elements on my site by creating functions in JavaScript that change the text and text color once a user hovers their mouse over a gigabyte size. Script.js lines 1,21, 41, 61, 106, 131, 148, 173, 208, 260, 295, 335, ect.
+
+    Css Features
+I’m using flexbox to organize content in my media queries. Inside my style.css lines 113 and 122 I have a flex-wrap property declared to wrap. Followed by a justify-content declared to space-around for screens wider than 768 px (tablets) and a justify-content declared to space-evenly for screens wider than 1080 px for desktops. This creates a single column layout on mobile devices and a multi column layout on desktop.
+
+
+These features will satisfy the following requirements
+
+“Create at least 3 variables (var, const, or let), set their values in JavaScript, and display the values somewhere on your page”
+“Show/hide one or more content areas or elements on your site through clicking a button or some other user interaction - must be done with some JavaScript code”
+“Use Flexbox or CSS Grid to organize content areas based on mobile or desktop views. Simply applying a basic flex property so that text wraps as you change screen sizes does not count. You must actually rearrange content or perform some more advanced feature. For example, swapping from a single column layout to a two-column layout on desktop”
