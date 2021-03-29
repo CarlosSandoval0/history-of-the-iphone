@@ -4,7 +4,7 @@ JavaScript Features
 
 I've created more than 3 JavaScript let variables inside Script.js lines 2, 22, 42, 62, and 82. The values are set to different iphone prices that will display once a user hovers over a gigabyte size.
 
-I am showing, hiding, and changing elements on my site by creating functions in JavaScript that change the text and text color once a user hovers their mouse over a gigabyte size. Script.js lines 1,21, 41, 61, 106, 131, 148, 173, 208, 260, 295, 335, ect.
+I am showing, hiding, and changing elements on my site by creating functions in JavaScript that change the text and text color once a user hovers their mouse over a gigabyte size. Script.js lines 1,21, 41, 61, 81, 109, 134, 151, 176, 211, 254, 263, 298, 321, 338, 373, 398, 423, 458, 483, and 518.
 
 
     Css Features
